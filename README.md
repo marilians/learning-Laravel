@@ -43,6 +43,11 @@ Por lo tanto desplegar los site en el navegador requiere:
               root@yyyyy:/var/www/ciclo# php artisan migrate
  
 
-              
-       
+ Para detener los servicios: laradock$ docker-compose down
+ 
+ NOTA: Si existe un webserver local ya instalado se debe detener antes de iniciar el ambiente con docker-compose, 
+       para evitar conflicto con el uso del puerto 80.
+ 
+ 
+ 
        
